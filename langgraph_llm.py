@@ -64,8 +64,8 @@ graph.add_edge('generate_blog',END)
 
 # compile graph
 workflow = graph.compile()
-
-result = workflow.invoke({'query' : 'eveulation of AI in india'})
+intial_state = {'query' : 'eveulation of AI in india'}
+result = workflow.invoke(intial_state)
 print(result['outline'])
 print(result['blog'])
 
