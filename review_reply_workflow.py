@@ -3,7 +3,6 @@ from typing import TypedDict, Literal
 from langchain_huggingface import HuggingFaceEndpoint,ChatHuggingFace
 from google.colab import userdata
 from pydantic import BaseModel, Field
-from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
 from langchain_core.output_parsers import PydanticOutputParser
 from langchain_core.prompts import PromptTemplate
 
